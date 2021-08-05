@@ -13,11 +13,11 @@ export default function Info(props) {
   const [page, setPage] = useState(pages.JOIN);
 
   function joinInfo() {
-    return "Join page";
+    return "Join page helps you join a shared virtual room to enjoy th music with loved ones";
   }
 
   function createInfo() {
-    return "Create page";
+    return "Create page enbles you to create a virtual music room and add your friends or family to enjoy the music collectively.";
   }
 
   useEffect(() => {
@@ -29,7 +29,7 @@ export default function Info(props) {
     <Grid container spacing={1}>
       <Grid item xs={12} align="center">
         <Typography component="h4" variant="h4">
-          What is House Party?
+          What is ClubHouse?
         </Typography>
       </Grid>
       <Grid item xs={12} align="center">
